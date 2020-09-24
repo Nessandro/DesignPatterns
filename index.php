@@ -1,5 +1,5 @@
 <?php
 
-echo 'Initial Data';
+echo 'Initial Data Test';
 exit;
 
