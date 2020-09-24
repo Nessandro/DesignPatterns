@@ -1,9 +1,9 @@
 {
   "name": "nessandro/designPatterns",
   "description": "designPatterns",
-  "autload": {
+  "autoload": {
     "psr-4": {
-      "DesignPatterns": "src"
+      "DesignPatterns\\": "src"
     }
   }
 }
