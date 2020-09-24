@@ -12,9 +12,15 @@ try{
      * COMPOSITE DESIGN PATTERN
      */
     $composite = new \DesignPatterns\Structural\Composite\Composite();
-    echo $composite->run();
+//    echo $composite->run();
 
+    /**
+     *
+     * DECORATOR DESIGN PATTERN
+     */
 
+    $decorator = new \DesignPatterns\Structural\Decorator\Decorator();
+    $decorator->run();
 
 
 }catch (\Exception $e)
