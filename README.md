@@ -16,7 +16,7 @@ docker container run -d -p 8080:80 -v $(pwd):/var/www/html --name my_php php:7.2
 
 For build the image, you can use the following command:
 ```bash
-docker image build -t <immage_name> .
+docker image build -t <image_name> .
 ```
 
 ##License
