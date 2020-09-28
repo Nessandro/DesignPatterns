@@ -28,8 +28,15 @@ try{
      * FACADE DESIGN PATTERN
      */
 
-    $facade = new \DesignPatterns\Structural\Facade\Facade();
-    $facade->run();
+//    $facade = new \DesignPatterns\Structural\Facade\Facade();
+//    $facade->run();
+
+    /**
+     * ADAPTER DESIGN PATTERN
+     */
+
+    $adapter = new \DesignPatterns\Structural\Adapter\GatewayAdapter();
+    $adapter->run();
 
 
 }catch (\Exception $e)
