@@ -6,12 +6,13 @@ use \DesignPatterns\Structural\Composite\Components;
 
 echo 'Initial Data Test';
 
+
 try{
 
     /**
      * COMPOSITE DESIGN PATTERN
      */
-    $composite = new \DesignPatterns\Structural\Composite\Composite();
+//    $composite = new \DesignPatterns\Structural\Composite\Composite();
 //    echo $composite->run();
 
     /**
@@ -19,8 +20,16 @@ try{
      * DECORATOR DESIGN PATTERN
      */
 
-    $decorator = new \DesignPatterns\Structural\Decorator\Decorator();
-    $decorator->run();
+//    $decorator = new \DesignPatterns\Structural\Decorator\Decorator();
+//    $decorator->run();
+
+    /**
+     *
+     * FACADE DESIGN PATTERN
+     */
+
+    $facade = new \DesignPatterns\Structural\Facade\Facade();
+    $facade->run();
 
 
 }catch (\Exception $e)

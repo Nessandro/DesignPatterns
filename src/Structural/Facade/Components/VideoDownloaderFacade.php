@@ -35,6 +35,38 @@ class VideoDownloaderFacade
     }
 
     /**
+     * @return VideoDownloader
+     */
+    public function getDownloader(): VideoDownloader
+    {
+        return $this->downloader;
+    }
+
+    /**
+     * @param VideoDownloader $downloader
+     */
+    public function setDownloader(VideoDownloader $downloader): void
+    {
+        $this->downloader = $downloader;
+    }
+
+    /**
+     * @return VideoFormatter
+     */
+    public function getFormatter(): VideoFormatter
+    {
+        return $this->formatter;
+    }
+
+    /**
+     * @param VideoFormatter $formatter
+     */
+    public function setFormatter(VideoFormatter $formatter): void
+    {
+        $this->formatter = $formatter;
+    }
+
+    /**
      * @return $this
      */
     public function download(): VideoDownloaderFacade
