@@ -10,6 +10,11 @@ echo 'Initial Data Test';
 try{
 
     /**
+     * STRUCTURAL DESIGN PATTERNS
+     *
+     */
+
+    /**
      * COMPOSITE DESIGN PATTERN
      */
 //    $composite = new \DesignPatterns\Structural\Composite\Composite();
@@ -35,9 +40,18 @@ try{
      * ADAPTER DESIGN PATTERN
      */
 
-    $adapter = new \DesignPatterns\Structural\Adapter\GatewayAdapter();
-    $adapter->run();
+//    $adapter = new \DesignPatterns\Structural\Adapter\GatewayAdapter();
+//    $adapter->run();
 
+
+    /**
+     *
+     * CREATIONAL DESIGN PATTERNS
+     *
+     */
+
+    $factory = new \DesignPatterns\Creational\Factory\Factory();
+    $factory->run();
 
 }catch (\Exception $e)
 {
