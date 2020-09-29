@@ -50,8 +50,18 @@ try{
      *
      */
 
-    $factory = new \DesignPatterns\Creational\Factory\Factory();
-    $factory->run();
+    /**
+     * FACTORY DESIGN PATTERN
+     */
+//    $factory = new \DesignPatterns\Creational\Factory\Factory();
+//    $factory->run();
+
+    /**
+     * BUILDER
+     */
+
+    $builder = new \DesignPatterns\Creational\Builder\Builder();
+    $builder->run();
 
 }catch (\Exception $e)
 {
