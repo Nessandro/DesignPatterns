@@ -60,8 +60,15 @@ try{
      * BUILDER
      */
 
-    $builder = new \DesignPatterns\Creational\Builder\Builder();
-    $builder->run();
+//    $builder = new \DesignPatterns\Creational\Builder\Builder();
+//    $builder->run();
+
+    /**
+     * MEDIATOR
+     */
+
+    $mediator = new \DesignPatterns\Behavioral\Mediator\Mediator();
+    $mediator->run();
 
 }catch (\Exception $e)
 {
