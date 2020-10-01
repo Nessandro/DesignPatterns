@@ -67,8 +67,15 @@ try{
      * MEDIATOR
      */
 
-    $mediator = new \DesignPatterns\Behavioral\Mediator\Mediator();
-    $mediator->run();
+//    $mediator = new \DesignPatterns\Behavioral\Mediator\Mediator();
+//    $mediator->run();
+
+    /**
+     * STRATEGY
+     */
+
+    $strategy = new \DesignPatterns\Behavioral\Strategy\Strategy();
+    $strategy->run();
 
 }catch (\Exception $e)
 {
